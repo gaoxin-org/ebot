@@ -1,0 +1,21 @@
+
+=CRASH REPORT==== 8-Jan-2013::19:35:08 ===
+  crasher:
+    initial call: mochiweb_acceptor:init/3
+    pid: <0.141.0>
+    registered_name: []
+    exception error: no function clause matching 
+                     mochiweb:new_request({#Port<0.3436>,
+                                           {"LIST","VIDEO||",{0,9}},
+                                           []})
+      in function  mochiweb_http:parse_headers/5
+    ancestors: [webmachine_mochiweb,ebot_sup,<0.78.0>]
+    messages: []
+    links: [<0.125.0>,#Port<0.3436>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 377
+    stack_size: 24
+    reductions: 431
+  neighbours:
